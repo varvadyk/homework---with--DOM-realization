@@ -1,7 +1,7 @@
 const main = document.getElementById("main_box");
 const value = 25;
 const code_color = 256;
-
+let timer;
 function generateBlocks() {
 	main.textContent = "";
 	for (let i = 0; i < value; i++) {
